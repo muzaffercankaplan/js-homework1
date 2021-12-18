@@ -34,9 +34,14 @@ start.onclick =function ()  {
     let color2 = Math.floor(Math.random()* 255)
     let color3 = Math.floor(Math.random()* 255)
     body.style.backgroundColor = `rgb(${color1}, ${color2}, ${color3})`;},100)
-    // durdurmak için stop.onclick fonksiyonunu yazdım.
-    stop.onclick =function(){
-        clearInterval(myInterval);
-        body.style.backgroundColor = "black"
-    }
+    stop.classList.remove("invisible")
+    start.classList.add("invisible")
+   
+}
+
+stop.onclick =function(){
+    clearInterval(myInterval);
+    body.style.backgroundColor = "black"
+    stop.classList.add("invisible")
+    start.classList.remove("invisible")
 }
