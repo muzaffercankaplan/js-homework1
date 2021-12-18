@@ -1,0 +1,25 @@
+
+
+.text1 {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
+
+  .text2 {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  img {
+    margin-top: 120px;
+    width: 17%;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+}
